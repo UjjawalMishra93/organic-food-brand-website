@@ -9,14 +9,14 @@ const Header = () => {
             <div className="flex-1">
                 {/* Logo - using a font that looks close to the reference */}
                 <div className="text-4xl font-serif font-black text-brown-dark tracking-tighter cursor-pointer flex items-center gap-1">
-                    <span className="italic">Cintel</span>
+                    <span className="italic">Orchard</span>
                     <span className="text-xs align-top -mt-4 opacity-70">TM</span>
                 </div>
             </div>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex justify-center flex-1 space-x-12">
-                {['Series', 'Foods', 'Drinks', 'Fate Line'].map((item) => (
+                {['Series', 'Foods', 'Drinks', 'Philosophy'].map((item) => (
                     <a key={item} href="#" className="text-brown-muted hover:text-brown-dark font-medium text-sm md:text-base uppercase tracking-wide transition-colors">
                         {item}
                     </a>
@@ -49,7 +49,7 @@ const Header = () => {
             {/* Mobile Navigation Dropdown */}
             {isMenuOpen && (
                 <div className="absolute top-full left-0 w-full bg-cream shadow-xl border-t border-brown-muted/10 p-6 flex flex-col items-center space-y-6 md:hidden">
-                    {['Series', 'Foods', 'Drinks', 'Fate Line'].map((item) => (
+                    {['Series', 'Foods', 'Drinks', 'Philosophy'].map((item) => (
                         <a key={item} href="#" className="text-brown-dark font-medium text-lg uppercase tracking-wide">
                             {item}
                         </a>

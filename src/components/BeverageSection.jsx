@@ -10,7 +10,7 @@ const BeverageSection = () => {
                 {/* Left Info Card */}
                 <div className="lg:col-span-2 bg-cream rounded-[2.5rem] p-10 flex flex-col justify-between h-full min-h-[400px]">
                     <div>
-                        <h2 className="text-4xl font-serif font-bold text-brown-dark mb-6">Óiceo</h2>
+                        <h2 className="text-4xl font-serif font-bold text-brown-dark mb-6">Origins</h2>
                         <div className="flex items-center gap-3 mb-8">
                             <span className="w-8 h-8 rounded-full bg-yellow flex items-center justify-center text-brown-dark font-bold text-xs">e</span>
                             <p className="text-brown-muted text-sm font-medium">Sustainable farming growth</p>
@@ -44,7 +44,7 @@ const BeverageSection = () => {
 
                     <span className="relative z-10 text-brown-muted font-serif italic text-lg mb-2">Refreshing</span>
                     <h2 className="relative z-10 text-5xl md:text-6xl font-serif font-bold text-brown-dark mb-10 leading-tight">
-                        SEMODJ <br /> HE PRIGHT
+                        SMOOTH <br /> & BRIGHT
                     </h2>
 
                     <div className="relative z-10 mb-10 transform group-hover:scale-105 transition-transform duration-500">

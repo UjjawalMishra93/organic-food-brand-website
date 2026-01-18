@@ -7,12 +7,12 @@ const Footer = () => {
 
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-5xl md:text-7xl font-serif font-bold text-brown-dark tracking-tight opacity-90">Detgopepteonics</h2>
+                    <h2 className="text-5xl md:text-7xl font-serif font-bold text-brown-dark tracking-tight opacity-90">MotherEarth</h2>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div className="space-y-6">
-                        <span className="text-2xl font-serif font-bold text-brown-dark">Ointel</span>
+                        <span className="text-2xl font-serif font-bold text-brown-dark">Orchard</span>
                         <p className="text-brown-muted text-sm leading-relaxed max-w-xs">
                             We are dedicated to providing the freshest organic produce directly from our fields to your table.
                         </p>
@@ -40,7 +40,7 @@ const Footer = () => {
 
                     <div className="space-y-6">
                         <h4 className="font-sans font-bold text-brown-dark uppercase text-xs tracking-wider">Connect</h4>
-                        <p className="text-brown-muted text-sm font-medium">hello@ointel.organic</p>
+                        <p className="text-brown-muted text-sm font-medium">hello@orchard.organic</p>
                         <p className="text-brown-muted text-sm font-medium">+1 (555) 123-4567</p>
                         <div className="flex gap-4 pt-2">
                             {/* Social icons placeholders */}
@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-8 border-t border-brown-muted/10 flex flex-col md:flex-row justify-between items-center text-xs text-brown-muted opacity-60">
-                    <p>© 2024 Ointel Organic. All rights reserved.</p>
+                    <p>© 2024 Orchard Organic. All rights reserved.</p>
                     <div className="flex gap-8 mt-4 md:mt-0">
                         <span>Security</span>
                         <span>Sitemap</span>

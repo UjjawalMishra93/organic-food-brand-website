@@ -24,9 +24,9 @@ const ProductCard = ({ image, name, price, desc }) => (
 
 const ProductGrid = () => {
     const products = [
-        { id: 1, name: "Birgt Iderrrive", price: "$12.40", image: walnuts, desc: "Fresh organic walnuts" },
-        { id: 2, name: "Adlicone", price: "$32.30", image: hazelnuts, desc: "Premium hazelnuts" },
-        { id: 3, name: "Manalriuite", price: "$64.57", image: bread, desc: "Whole grain bread" },
+        { id: 1, name: "Bright Reserve", price: "$12.40", image: walnuts, desc: "Fresh organic walnuts" },
+        { id: 2, name: "Amber Cone", price: "$32.30", image: hazelnuts, desc: "Premium hazelnuts" },
+        { id: 3, name: "Morning Delight", price: "$64.57", image: bread, desc: "Whole grain bread" },
     ];
 
     return (
@@ -34,11 +34,11 @@ const ProductGrid = () => {
             {/* Section Title Area */}
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 mb-20">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-                    <h2 className="text-5xl font-serif font-bold text-brown-dark">Crty Revival</h2>
+                    <h2 className="text-5xl font-serif font-bold text-brown-dark">Daily Revival</h2>
                     <div className="flex items-center gap-6 max-w-lg">
                         <img src={walnuts} className="w-16 h-16 object-contain opacity-80" />
                         <div className="text-sm text-brown-muted">
-                            <h3 className="font-serif font-bold text-lg text-brown-dark mb-1">Jepnher Tollb</h3>
+                            <h3 className="font-serif font-bold text-lg text-brown-dark mb-1">Janet's Choice</h3>
                             <p className="leading-relaxed opacity-80">Discover nature's finest selections for your daily health and organic living wellness.</p>
                         </div>
                     </div>

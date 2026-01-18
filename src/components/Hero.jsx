@@ -34,7 +34,7 @@ const Hero = () => {
                         Started Since 1998 —
                     </span>
                     <h1 className="text-brown-dark text-[clamp(2.75rem,5vw,6rem)] font-serif font-bold leading-none tracking-tight">
-                        Gayerce <br /> Abfour Cour
+                        Nature's <br /> Finest Harvest
                     </h1>
                     <p className="text-brown-muted text-lg md:text-xl max-w-lg mx-auto lg:mx-0 leading-relaxed opacity-80">
                         Always providing the best nature has to offer with our dedicated farming organic products.

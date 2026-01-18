@@ -4,7 +4,7 @@ import bottles from '../assets/bottles.png';
 
 const BeverageSection = () => {
     return (
-        <section className="py-24 bg-cream">
+        <section id="drinks" className="py-24 bg-cream">
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 grid grid-cols-1 lg:grid-cols-5 gap-8 bg-offwhite rounded-[3rem] p-8 md:p-12 shadow-sm">
 
                 {/* Left Info Card */}

@@ -16,9 +16,14 @@ const Header = () => {
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex justify-center flex-1 space-x-12">
-                {['Series', 'Foods', 'Drinks', 'Philosophy'].map((item) => (
-                    <a key={item} href="#" className="text-brown-muted hover:text-brown-dark font-medium text-sm md:text-base uppercase tracking-wide transition-colors">
-                        {item}
+                {[
+                    { name: 'Series', id: 'series' },
+                    { name: 'Foods', id: 'foods' },
+                    { name: 'Drinks', id: 'drinks' },
+                    { name: 'Philosophy', id: 'philosophy' }
+                ].map((item) => (
+                    <a key={item.name} href={`#${item.id}`} className="text-brown-muted hover:text-brown-dark font-medium text-sm md:text-base uppercase tracking-wide transition-colors">
+                        {item.name}
                     </a>
                 ))}
             </nav>
@@ -29,7 +34,9 @@ const Header = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                 </button>
-                <Button className="hidden md:block rounded-full px-8 bg-brown-dark text-white hover:bg-brown-muted shadow-none text-sm">Contact</Button>
+                <a href="#contact" className="hidden md:block">
+                    <Button className="rounded-full px-8 bg-brown-dark text-white hover:bg-brown-muted shadow-none text-sm">Contact</Button>
+                </a>
 
                 {/* Mobile Menu Toggle */}
                 <button
@@ -49,9 +56,19 @@ const Header = () => {
             {/* Mobile Navigation Dropdown */}
             {isMenuOpen && (
                 <div className="absolute top-full left-0 w-full bg-cream shadow-xl border-t border-brown-muted/10 p-6 flex flex-col items-center space-y-6 md:hidden">
-                    {['Series', 'Foods', 'Drinks', 'Philosophy'].map((item) => (
-                        <a key={item} href="#" className="text-brown-dark font-medium text-lg uppercase tracking-wide">
-                            {item}
+                    {[
+                        { name: 'Series', id: 'series' },
+                        { name: 'Foods', id: 'foods' },
+                        { name: 'Drinks', id: 'drinks' },
+                        { name: 'Philosophy', id: 'philosophy' }
+                    ].map((item) => (
+                        <a
+                            key={item.name}
+                            href={`#${item.id}`}
+                            className="text-brown-dark font-medium text-lg uppercase tracking-wide"
+                            onClick={() => setIsMenuOpen(false)}
+                        >
+                            {item.name}
                         </a>
                     ))}
                     <div className="pt-4 flex flex-col items-center gap-4 w-full">

@@ -4,7 +4,7 @@ import basketImg from '../assets/tr-basket.png';
 
 const FarmVariety = () => {
     return (
-        <section className="py-24 bg-offwhite">
+        <section id="foods" className="py-24 bg-offwhite">
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16">
                 <div className="text-center mb-16">
                     <span className="text-brown-muted font-medium tracking-wide uppercase text-sm block mb-4">

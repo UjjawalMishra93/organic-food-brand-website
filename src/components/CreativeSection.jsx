@@ -4,7 +4,7 @@ import levitateImg from '../assets/tr-levitating.png';
 
 const CreativeSection = () => {
     return (
-        <section className="py-24 bg-cream overflow-hidden">
+        <section id="philosophy" className="py-24 bg-cream overflow-hidden">
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
                 {/* Left: Text Content */}

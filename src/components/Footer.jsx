@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-cream pt-20 pb-8 border-t border-brown-muted/5 relative overflow-hidden">
+        <footer id="contact" className="bg-cream pt-20 pb-8 border-t border-brown-muted/5 relative overflow-hidden">
             {/* Decorative large text background? */}
 
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 relative z-10">

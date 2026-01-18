@@ -30,7 +30,7 @@ const ProductGrid = () => {
     ];
 
     return (
-        <section className="py-24 bg-cream relative">
+        <section id="series" className="py-24 bg-cream relative">
             {/* Section Title Area */}
             <div className="max-w-screen-2xl mx-auto px-8 md:px-16 mb-20">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
